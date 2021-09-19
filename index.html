@@ -1,25 +1,48 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <!-- meta tags, links to css, etc. -->
-    <link href="assets/css/styles.css" type="text/css" rel="stylesheet">
-    <title>DIG 245 Everyone ♥ Math</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <!-- meta tags, links to css, etc. -->
+  <link href="assets/css/styles.css" type="text/css" rel="stylesheet">
+  <title>DIG 245 Everyone ♥ Math</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  </head>
-  <body>
-    <h1>DIG 245 Everyone ♥ Math</h1>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
+</head>
 
+<body>
+  <h1>DIG 245 Everyone ♥ Math</h1>
+  <div class="mathStory">
+    You are trying to exit a parking lot, and you need to know your parking number to exit. <br>
+    What is the parking number under the car?
+  </div>
 
+  <div class ="parkingLot"><img src="assets/img/ParkingLot.png" alt="Parking Lot with Red Car"></div>
+  <div class ="parkedCar" id="redCar"> <img src="assets/img/RedCar.png" alt="Red Car"> </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
+  <div class="solution">
+  <form action="#">
+    <div class="form-group">
+      <label for="parkingNumber"> Parking Place Number </label>
+      <input type="text" id="parkingNumber" name="parkingNumber"><br>
+    </div>
 
-  </body>
+    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+  </form>
+
+  <!-- <a href="./car.html" class="button">Next</a> -->
+
+  <div id="hint"></div>
+  <div id="clue"></div>
+  <!-- <button onclick="myFunction()" class="button">Hint</button></div> -->
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>

@@ -4,3 +4,29 @@
 h1{
   text-align: center;
 }
+
+.button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.mathStory{
+  display: inline-block;
+  position: absolute;
+
+}
+.parkingLot{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+}
+.parkedCar {
+  display: inline-block;
+  position: absolute;
+  top: 158px;
+  left: 487px;
+}
+.solution{
+  display: inline-block;
+  position: absolute;absolute;absolute;
+  top: 350px;
+}
